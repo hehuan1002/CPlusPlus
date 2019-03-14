@@ -29,6 +29,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	// 打印hehuan
 	std::cout<<str<<std::endl;
 
-// printf为c函数，%s要求的是字符串首地址，而c里面并没有string这个东西。 [3/14/2019 hehuan]
+// printf为c函数，%s要求的是字符串首地址，而c里面并没有string这个东西。
+// %c只是打印字符
 	return 0;
 }
